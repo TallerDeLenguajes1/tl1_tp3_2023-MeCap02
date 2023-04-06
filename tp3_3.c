@@ -8,6 +8,7 @@ int main(){
 	int i=0,N;
 	puts("Ingrese la cantidad de usuarios que desea ingresar\n");
 	scanf("%d",&N);
+	fflush(stdin);
 	char **nombres=(char **)malloc(sizeof(char *)*N);
 	char *buff=(char *)malloc(100);
 	for(i=0;i<N;i++){
