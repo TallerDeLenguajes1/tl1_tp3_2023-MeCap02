@@ -4,10 +4,10 @@
 #include<string.h>
 #include<stdlib.h>
 
-#define N 5
-
 int main(){
 	int i=0;
+	puts("Ingrese la cantidad de usuarios que desea ingresar\n");
+	scanf("%d",&N);
 	char **nombres=(char **)malloc(sizeof(char *)*N);
 	char *buff=(char *)malloc(100);
 	for(i=0;i<N;i++){
