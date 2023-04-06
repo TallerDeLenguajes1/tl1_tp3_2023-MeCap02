@@ -5,7 +5,7 @@
 #include<stdlib.h>
 
 int main(){
-	int i=0;
+	int i=0,N;
 	puts("Ingrese la cantidad de usuarios que desea ingresar\n");
 	scanf("%d",&N);
 	char **nombres=(char **)malloc(sizeof(char *)*N);
